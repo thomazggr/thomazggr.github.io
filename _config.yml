@@ -1,0 +1,22 @@
+title: Thomaz
+url: "https://thomazggr.github.io"
+baseurl: ""
+lang: pt-BR
+timezone: America/Sao_Paulo
+markdown: kramdown
+permalink: /blog/:title/
+
+sass:
+  style: compressed
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs
+  - vendor
