@@ -5,17 +5,21 @@ permalink: /
 description: "Interesses em engenharia de dados, software, sistemas distribuídos, nuvem, carros e hardware."
 ---
 <section class="home-intro" aria-labelledby="intro-title">
-  <p class="eyebrow">{{ site.data.profile.location }} <span aria-hidden="true">/</span> {{ site.data.profile.role }}</p>
-  <h1 id="intro-title">Buenas, sou o {{ site.data.profile.name }}.<br><span class="display-accent">Data, data everywhere.</span></h1>
-  <div class="intro-copy">
-    {% if site.data.profile.short_bio != "" %}
-    <p>{{ site.data.profile.short_bio | escape }}</p>
-    {% else %}
-    <p>Data Engineer na Zup e Itaú. 5+ anos de experiência em dados, anteriormente como pesquisador acadêmico trabalhando com Bioinformática. Grande foco em desenvolver plataformas de dados em sistemas distribuídos, entregas de alto volume para empresas de gás, motores de recomendação, e sistemas de cobrança e utilização.</p>
-    {% endif %}
-    <p class="intro-links"><a class="text-link" href="{{ '/blog/' | relative_url }}">Leia o blog <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/contact/' | relative_url }}">Entre em contato <span aria-hidden="true">↗</span></a></p>
+  <h1 id="intro-title"><span class="display-accent">Data, data everywhere.</span></h1>
+  <div class="intro-details">
+    <div class="intro-profile">
+      <h2>Buenas, sou o {{ site.data.profile.name }}.</h2>
+      <p class="eyebrow">{{ site.data.profile.location }} <span aria-hidden="true">/</span> {{ site.data.profile.role }}</p>
+    </div>
+    <div class="intro-copy">
+      {% if site.data.profile.short_bio != "" %}
+      <p>{{ site.data.profile.short_bio | escape }}</p>
+      {% else %}
+      <p>Data Engineer na Zup e Itaú. 5+ anos de experiência em dados, anteriormente como pesquisador acadêmico trabalhando com Bioinformática. Grande foco em desenvolver plataformas de dados em sistemas distribuídos, entregas de alto volume para empresas de gás, motores de recomendação, e sistemas de cobrança e utilização.</p>
+      {% endif %}
+      <p class="intro-links"><a class="text-link" href="{{ '/blog/' | relative_url }}">Leia o blog <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/contact/' | relative_url }}">Entre em contato <span aria-hidden="true">↗</span></a></p>
+    </div>
   </div>
-  <div class="intro-index" aria-hidden="true"><span>01</span><span>curiosidade em prática</span></div>
 </section>
 
 <section class="interest-section" aria-label="Interesses">

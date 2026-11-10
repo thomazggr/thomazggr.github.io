@@ -9,7 +9,7 @@ A página inicial deve identificar a pessoa e sua área de atuação logo no pri
 ## Layout e navegação
 
 - Usar uma moldura editorial consistente, com conteúdo alinhado a uma coluna de leitura e espaço lateral generoso em telas largas.
-- Na introdução da página inicial, manter o título e destaque juntos à esquerda e a descrição com links na coluna à direita; empilhar as colunas em telas estreitas.
+- Na introdução da página inicial, deixar apenas “Data, data everywhere” como título principal à esquerda; à direita, agrupar o cumprimento pessoal em escala secundária, localização/profissão e descrição com links, nessa ordem. Usar espaçamento curto entre a navegação e o conteúdo da home. Em telas estreitas, empilhar o título acima do grupo.
 - Exibir os interesses diretamente em uma grade de caixas, sem título ou legenda de seção; em telas pequenas, usar uma coluna.
 - Manter navegação global enxuta: início, blog e sobre/contato.
 - Priorizar tipografia, títulos, datas, divisores e metadados. Usar cartões apenas quando representarem itens independentes, como artigos ou interesses.

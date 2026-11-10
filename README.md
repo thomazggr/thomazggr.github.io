@@ -4,7 +4,7 @@ Site pessoal publicado em GitHub Pages com Jekyll: apresentação, interesses, b
 
 ## Desenvolvimento local
 
-Requisitos: Ruby compatível com a versão do GitHub Pages e Bundler. Instale as dependências e inicie o servidor:
+Com Ruby compatível com a versão do GitHub Pages e Bundler, instale as dependências e inicie o servidor:
 
 ```sh
 bundle install
@@ -17,7 +17,17 @@ Abra o endereço local informado pelo Jekyll. Para gerar o site sem iniciar o se
 bundle exec jekyll build
 ```
 
-A saída é gerada em `_site/`, que não deve ser commitada.
+### Usando Podman
+
+A imagem `jekyll/jekyll:pages` inclui Ruby, Bundler e Jekyll, então não é necessário instalá-los no sistema host. Na raiz do repositório, inicie o servidor com:
+
+```sh
+de
+```
+
+Abra <http://localhost:4000> no navegador. Encerre o servidor com `Ctrl+C` no terminal.
+
+A saída de builds locais é gerada em `_site/`, que não deve ser commitada.
 
 ## Conteúdo
 
